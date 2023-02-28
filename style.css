@@ -1,0 +1,18 @@
+body{
+    background-color:cornflowerblue ;
+    background-color: header;
+    font-family: 'Gajraj One', cursive;
+    color: indigo;
+}
+#div_principal{
+    background-color: deeppink;
+    color: greenyellow;
+}
+#div_do_fundao{
+    position: fixed;
+    color: goldenrod;
+    bottom:0;
+    width: 100%;
+    background-color: crimson;
+    text-align: center;
+}

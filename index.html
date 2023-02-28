@@ -10,34 +10,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
     <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
-        </head>
-            <body>
-                <div class="col-xs-12 text-center">
-                    <h1>
-                        pug escuta
-                    </h1>
-                    <p>
-                        nota:reproduza diferentes sons como latidos e miados
-                    </p>
-                </div>
-                <div class="col-xs-12">
-                    <center>
-                        <button onclick="iniciar()" class="btn btn-muted">
-                            iniciar
-                        </button>
-                        <h4 id="contador_de_resultado">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+</head>
 
-                        </h4>
-                        <h3 id="legenda_de_resultado">
-                            POSSO OUVIR
-                        </h3>
-                        <br>
-                        <img src="https://www.pngkit.com/png/full/147-1471949_share-this-image-cafepress-black-pug-tile-coaster.png" alt="Um pug ouvindo" width="300" height="300">
-                        
-                    </center>
-                </div>
-                <div class="col-xs-12">
-                    desenvolvido pelos pugnautas
-                </div>
-            </body>
-        </html>
+<body>
+    <div class="col-xs-12 text-center" id="div_principal">
+        <h1>
+            pug escuta
+        </h1>
+        <p>
+            nota:reproduza diferentes sons como latidos e miados
+        </p>
+    </div>
+    <div class="col-xs-12" id="div_do_meio">
+        <center>
+            <button onclick="iniciar()" class="btn btn-muted">
+                iniciar
+            </button>
+            <h4 id="contador_de_resultado">
+
+            </h4>
+            <h3 id="legenda_de_resultado">
+                POSSO OUVIR
+            </h3>
+            <br>
+            <img src="https://www.pngkit.com/png/full/147-1471949_share-this-image-cafepress-black-pug-tile-coaster.png" id="imagem"
+                alt="Um pug ouvindo" width="300" height="300">
+
+        </center>
+    </div>
+    <div class="col-xs-12" id="div_do_fundao">
+        desenvolvido pelos pugnautas
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
